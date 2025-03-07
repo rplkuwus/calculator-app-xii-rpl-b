@@ -56,12 +56,12 @@ background-color: teal rgb(184, 212, 154);
    padding: 10px;
    border-radius: 10px;
 }
-.button.operator{
+button.operator{
    background-color: yellow;
    color: white;
 }
 
-.button.equal{
+button.equal{
    background-color: cadetblue;
    color: white;
    grid-column: span2;
