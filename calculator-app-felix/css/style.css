@@ -9,6 +9,7 @@ body{
    margin: 0;
    justify-content: center;
 }
+
 .calculator{
     width: 400px;
     background-color: darkseagreen;
@@ -45,7 +46,7 @@ button{
    font-size: 1.5em;
    padding: 20px;
    border-radius: 10px;
-   border:solid* steelblue;
+   border: 1px solid steelblue;
    cursor: pointer;
    background-color: teal rgb(184, 212, 154);
 
