@@ -106,13 +106,13 @@ butoon.equal{
     .calculator{
         width: 90px;
     }
-}
 
-.display{
-    font-size: 2em;
-}
-
-.button{
-    font-size: 1.2em;
-    padding: 12px;
+    .display{
+        font-size: 2em;
+    }
+    
+    .button{
+        font-size: 1.2em;
+        padding: 12px;
+    }
 }
