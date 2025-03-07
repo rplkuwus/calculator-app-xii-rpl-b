@@ -34,19 +34,19 @@ body {
 }
 
 .buttons{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
 }
 
 button {
-font-family: 'space mono' monospace;
-font-size: 1.2em;
-padding: 20px;
-border-radius: 10px;
-border: 1px solid gold;
-cursor: pointer;
-background-color:rgb(184, 212, 154);
+    font-family: 'space mono' monospace;
+    font-size: 1.2em;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gold;
+    cursor: pointer;
+    background-color:rgb(184, 212, 154);
 }
 
 .clear{
@@ -55,8 +55,8 @@ background-color:rgb(184, 212, 154);
 }  
 
 button.operator{
-background-color:rgb(41, 150, 154);
-color:white ;
+    background-color:rgb(41, 150, 154);
+    color:white ;
 }
 
 butoon.equal{
