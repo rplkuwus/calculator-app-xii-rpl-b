@@ -104,7 +104,7 @@ butoon.equal{
 
 @media (max-width : 450px) {
     .calculator{
-        width: 90px;
+        width: 90%;
     }
 
     .display{
