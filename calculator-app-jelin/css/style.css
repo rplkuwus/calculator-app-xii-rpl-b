@@ -94,7 +94,7 @@ h1 {
 }
 
 .footer- line {
-  height: 2,2px;
+  height: 2.2px;
   margin-left: 30px;
   margin-right: 30px;
   background-color: black;
@@ -102,7 +102,7 @@ h1 {
 
 /*Tampilan responsive mobile*/
 
-@media (max-width :40px) {
+@media (max-width :450px) {
       .calculator{
         width: 90px;
       }
