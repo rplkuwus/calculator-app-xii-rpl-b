@@ -34,19 +34,19 @@ body {
 }
 
 .buttons{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
 }
 
-.button{
-font-family: 'space mono' monospace;
-font-size: 1.2em;
-padding: 20px;
-border-radius: 10px;
-border: 1px solid brown;
-cursor: pointer;
-background-color:rgb(184, 212, 154);
+button{
+    font-family: 'space mono' monospace;
+    font-size: 1.2em;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    cursor: pointer;
+    background-color:rgb(184, 212, 154);
 }
 
 .clear{
