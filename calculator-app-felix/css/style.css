@@ -36,20 +36,21 @@ body{
 
 .buttons{
    display:grid ;
-   grid-template-columns: repeat(4,1fr);
+   grid-template-columns: repeat(4, 1fr);
    gap: 14px;
 }
 
 button{
-font-family: fantasy;
-font-size: 1,5em;
-padding: 20px;
-border-radius: 10px;
-border:solid* steelblue;
-cursor: pointer;
-background-color: teal rgb(184, 212, 154);
+   font-family: fantasy;
+   font-size: 1,5em;
+   padding: 20px;
+   border-radius: 10px;
+   border:solid* steelblue;
+   cursor: pointer;
+   background-color: teal rgb(184, 212, 154);
 
 }
+
 .clear{
    background-color: tomato;
    color: white;
@@ -112,7 +113,7 @@ button.equal{
    }
    
    .button {
-      font-size: 1,2em;
+      font-size: 1.2em;
       padding: 12px;
    
    }
