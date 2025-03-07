@@ -1,0 +1,116 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(118, 135, 136);
+    margin: 0;
+    justify-content: center;
+}
+
+.calculator {
+    width: 400px;
+    background-color:rgb(212, 209, 209);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(242, 121,121, 0,8);
+    text-align: center;
+}
+
+.display{
+    font-family: 'spacemono' ,monospace;
+    width: 95%;
+    height: 40px;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(147, 183, 197, 0.541);
+    margin-top: 10px;
+    border: 1px solid rgb(109, 135, 214);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button{
+    font-family: 'space mono', monospace;
+    font-size: 5,3em;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+    background-color:rgb(109, 132, 133);
+}
+
+.clear{
+    background-color: rgb(162, 87, 233);
+    color: #fff;
+}
+
+button.operator{
+    background-color: chocolate;
+    color: #fff;
+}
+
+button.equal{
+    background-color: rgb(155, 134, 134);
+    grid-column: span 2;
+    font-size: 2.5em;
+}
+.footer{
+    margin-top: 20px;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(161, 69, 69);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.h1{
+    text-align: center;
+    color: #555;
+}
+
+.footer-line{
+    height: 2,2px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #630808;
+    margin-top: 10px;
+}
+
+/*Tampilan responsive mobile*/
+
+
+@media (max-width :450px) {
+    .calculator{
+        width: 90%;
+    }
+    .display{
+        font-size: 2em;
+    }
+    .button{
+        font-size: 1,2em;
+        padding: 12px;
+        
+    }
+}

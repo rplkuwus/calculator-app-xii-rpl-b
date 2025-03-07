@@ -1,0 +1,121 @@
+body{
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 12px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100vh;
+ background-color: aquamarine;
+ margin: 0;
+ justify-content: center;
+}
+
+.calkulator{
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(242, 121,121, 0.5);
+    text-align: center;
+}
+
+.display{
+    font-family: 'space mono',monospace;
+    width: 94%;
+    height: 30px;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 10px;
+    background-color: azure #fbfbfb;
+    margin-top: 10px;
+    border: 1px solid azure #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+
+}
+
+.button{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: bisque;
+}
+
+clear{
+    background-color: brown;
+    color: #fff;
+}
+
+button.operator{
+    background-color: crimson;
+    color: #fff;
+}
+
+button.equal{
+    background-color: cornflowerblue;
+    color:#111;
+    grid-column: span 2;
+    font-size: 2em;
+}
+
+footer{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #fbfbfb;
+    color: #111;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo{
+  width:40px;
+  height:40px;
+  margin-right: 50px;
+}
+
+h1{
+    text-align: center;
+    color: #111;
+}
+/*tampilan responstive mobile*/
+@media(max-width:40px){
+    .calkulator{
+        width: 90px;
+    }
+}
+.footer line{
+    height: 2.2px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #111;
+    margin-top: 10px;
+    }   
+.display{
+    font-size: 2em;
+}
+
+.button{
+    font-size: 1.2em;
+    padding: 12px;
+}
+
+
+
+
+

@@ -1,0 +1,115 @@
+body {
+    font-family:'sapce mono',monospace;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(184,212,154);
+    margin: 0;
+    justify-content: center;
+}
+
+.calculator{
+    width: 400px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px  0px 10px  rgba( 242,121,121,0.8);
+    text-align: center;
+}
+
+.display{
+    font-family: 'sapce mono ',monospace;
+    width: 95%;
+    height: 30px;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border: solid rgb(82, 128, 128);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+    background-color: cadetblue;
+
+}
+
+.clear{
+    background-color: coral;
+    color: white;
+}
+
+.button.operator{
+    background-color: teal;
+    color: white;
+}
+
+.button.aqual{
+    background-color: turquoise;
+    color: black;
+    grid-column: span 2;
+    font-size: 2em;
+
+}
+
+.footer{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color:rgb(184,212,154);
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgba( 242,121,121,0.5);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+h1{
+    text-align: center;
+    color:white;
+
+}
+
+/*tampilan responlive mobile*/
+
+@media(max-with : 40px) {
+    .calculator{
+        width: 90px;
+    }
+    .display{
+        font-size: 2em;
+    }
+    .button{
+        font-size: 1.2em;
+        padding: 12px;
+    }
+
+}

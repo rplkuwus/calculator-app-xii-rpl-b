@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my calkulator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- bagian container calkulator-->
+ <div class="calkulator">
+     <header class="header">
+<img src="asests/images/calkulator.PNG" alt="logo" class="logo"> 
+    <h1> my kalkulator</h1>
+        
+     </header>
+     <!--bagian elemen untuk tampil hasil-->
+     <input type="text" class="display" id="display" disabled>
+
+     <!-- bagian elemen buton (tombol)-->
+     <div class="button">
+     <button onclick="cleardisplay()" class="clear">C</button>
+     <button onclick="square()">x2</button>
+     <button onclick="powerN()">xn</button>
+     <button onclick="squareroot()">^</button>
+     <button onclick="percentage()">%</button>
+     <button onclick="modulus()">mod</button>
+     <button onclick="integerdivision()">DIV</button>
+     <button onclick="appentodisplay('+')"  class="operator">+ </button>
+     <button onclick="appentodisplay('7')">7 </button>
+     <button onclick="appentodisplay('8')">8 </button>
+     <button onclick="appentodisplay('9')">9 </button>
+     <button onclick="appentodisplay('-')"  class="operator">- </button>
+     <button onclick="appentodisplay('4')"> 4</button>
+     <button onclick="appentodisplay('5')"> 5</button>
+     <button onclick="appentodisplay('6')"> 6</button>
+     <button onclick="appentodisplay('*')"  class="operator">* </button>
+     <button onclick="appentodisplay('1')"> 1</button>
+     <button onclick="appentodisplay('2')"> 2</button>
+     <button onclick="appentodisplay('3')"> 3</button>
+     <button onclick="appentodisplay('/')"  class="operator">/ </button>
+     <button onclick="appentodisplay('0')"> 0</button>
+     <button onclick="appentodisplay('.')"> .</button>
+     <button onclick="calculatorresult('=')" class="equal">=</button>
+    </div>
+    <!--bagian footer-->
+    <footer class="footer"></footer>
+    <p> created by nova| copyright 2025</p>
+    <footer>
+   <div class="footer-line"></div><!--menambah garis dibawah-->
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

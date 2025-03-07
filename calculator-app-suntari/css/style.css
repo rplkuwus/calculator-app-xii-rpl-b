@@ -1,0 +1,120 @@
+ body {
+     font-family: verdana,Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 12px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100;
+     background-color: rgb(245, 245, 242); 
+     margin: 0;
+     justify-content: center;
+ }
+
+ .calculator {
+     width: 400px;
+     background-color: rgb(233, 233, 159);
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 0px rgba (242, 121, 121, 0.5);
+     text-align: center;
+     
+ }
+
+ .display {
+    font-family: 'Courier New', Courier, monospace; 
+    width: 95%;
+    height: 40px;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(241, 230, 230);
+    margin-top: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(109, 103, 103);
+ }
+
+ .buttons {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+ }
+   
+button {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 5,3em;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    cursor: pointer;
+    background-color: rgb(223, 111, 163);
+}
+.clear {
+    background-color: red;
+    color: pink;
+}
+ 
+button.operator {
+    background-color: rgb(76, 193, 223);
+    color: rgb(29, 24, 24);
+}
+
+button.equal {
+    background-color: deepskyblue;
+    color: white;
+    grid-column: span 2;
+    font-size: 2em;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(81, 82, 79);
+    color: rgb(31, 28, 28);
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: white
+}
+
+.footer-line {
+height: 2,2px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 10px;
+background-color: #2a2a2a;
+}
+
+/*Tampilan responsiv mobile*/
+
+@media (max-width :450px) {
+    .calculator {
+        width: 90%;
+
+    }
+    .display {
+        font-size: 2em;
+    }
+    .button {
+        font-size: 1,2em;
+        padding: 12px;
+    }
+}

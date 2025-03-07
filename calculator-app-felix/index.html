@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>my calculator</title>
+              <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--bagian container calculator-->
+  <div class="calculator">
+  <header class="header">
+<h1> my calculator</h1>
+  </header>
+
+<!--bagian elemen input untuk tampilan hasil -->
+<input type="text" class="display" id="display" disabled>
+
+<!--bagian elemen button (tombol)-->
+  <div class="buttons">
+   <button onclick="clearDisplay()" class="clear">c</button>
+   <button onclick="square()"> x2 </button>
+   <button onclick="powerN()"> xn </button>
+   <button onclick="squareRoot()"> ^ </button>
+   <button onclick="percentage()"> % </button>
+   <button onclick="modulus()"> MOD </button>
+   <button onclick="integerDIvision()"> div </button>
+   <button onclick="appendToDisplay('+')" class="operator"> + </button>
+   <button onclick="appendToDisplay('7')"> 7 </button>
+   <button onclick="appendToDisplay('8')"> 8 </button>
+   <button onclick="appendToDisplay('9')"> 9 </button>
+   <button onclick="appendToDisplay('-')" class="operator"> - </button>
+   <button onclick="appendToDisplay('4')"> 4 </button>
+   <button onclick="appendToDisplay('5')"> 5 </button>
+   <button onclick="appendToDisplay('6')"> 6 </button>
+   <button onclick="appendToDisplay('*')" class="operator"> * </button>
+   <button onclick="appendToDisplay('1')"> 1 </button>
+   <button onclick="appendToDisplay('2')"> 2 </button>
+   <button onclick="appendToDisplay('3')"> 3 </button>
+   <button onclick="appendToDisplay('/')" class="operator"> / </button>
+   <button onclick="appendToDisplay('0')"> 0 </button>
+   <button onclick="appendToDisplay('.')"> . </button>
+   <button onclick="calculateResult()" class="equal"> = </button> 
+  </div>
+   <!--bagian footer-->
+    <footer class="footer">
+    <p> created by veliks |copyrigt 2025</p>
+    </footer>
+    <div class="footer-line"></div><!--menambah garis di bagian bawah -->
+  </div>
+  
+     <script src="js/script.js"></script>
+</body>
+</html>

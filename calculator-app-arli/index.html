@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <!--bagian container Calculator-->
+ <div class="calculator">
+   <header class="header">
+       <img src="Assets/imagges/Screenshot (2).png" alt="logo" class="logo">
+       <h2>my Calculator</h2>
+       </header>
+
+
+   <!--bagian elemen input untuk tampikan hasil-->
+   <input type="text"class="display" id="display"disabled>
+
+   <!--bagian elemen button (tombol)-->
+   <div class="buttons">
+       <button onclick="clearDisplay()"class="clear">C</button>
+       <button onclick="square()" >x^</button>
+       <button onclick="powerN()">x^n</button>
+       <button onclick="squareRoot()">√</button>
+       <button onclick="percentage()">%</button>
+       <button onclick="modulus()">MOD</button>
+       <button onclick="integerDivision()">DIV</BUtton>
+       <button onclick="oppendToDisplay('+')"class="operator">+</button>
+       <button onclick="oppendToDisplay('7')"> 7 </button>
+       <button onclick="oppendToDisplay('8')"> 8 </button>
+       <button onclick="oppendToDisplay('9')"> 9 </button>
+       <button onclick="oppendToDisplay('-')"class="operator">-</button>
+       <button onclick="oppendToDisplay('4')"> 4 </button>
+       <button onclick="oppendToDisplay('5')"> 5 </button>
+       <button onclick="oppendToDisplay('6')"> 6 </button>
+       <button onclick="oppendToDisplay('*')"class="operator">*</button>
+       <button onclick="oppendToDisplay('1')"> 1 </button>
+       <button onclick="oppendToDisplay('2')"> 2 </button>
+       <button onclick="oppendToDisplay('3')"> 3 </button>
+       <button onclick="oppendToDisplay('/')"class="operator"> / </button>
+       <button onclick="oppendToDisplay('0')"> 0 </button>
+       <button onclick="oppendToDisplay('.')"> . </button>
+       <button onclick="calculateResult()"class="equal"> = </button>
+
+   </div>
+
+        <!--bagian footer-->
+        <footer class="footer">
+            <p>created by arli | copyright 2025</p>
+        </footer>
+        <div class="footer-line"></div><!--menambah garis dibagian bawah-->
+
+</div>
+ <script src="javascript/script.js"></script>
+</body>
+</html>

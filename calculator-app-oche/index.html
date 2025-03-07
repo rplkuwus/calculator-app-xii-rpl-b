@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <!--bagian container calkulator-->
+    <div class="calculator">
+        <header class="header">
+            <img src="Assets/Images/Calculator.PNG" class="logo" alt="logo">
+            <h1> Calculator  App </h1>
+        </header>
+
+        <!--bagian elemen input untuk tampilkan hasil-->
+        <input type="text" class="display" id="display" disabled>
+
+        <!--bagian elemen button (tombol)-->
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="clear">C</button>
+            <button onclick="square()"> X2 </button>
+            <button onclick="powerN()"> Xn </button>
+            <button onclick="squareRoot()"> ^ </button>
+            <button onclick="percentage()"> % </button>
+            <button onclick="modulus()"> MOD </button>
+            <button onclick="integerDivision()">DIV</button>
+            <button onclick="appendToDisplay('+')" class="operator"> + </button>
+            <button onclick="appendToDisplay('7')"> 7 </button>
+            <button onclick="appendToDisplay('8')"> 8 </button>
+            <button onclick="appendToDisplay('9')"> 9 </button>
+            <button onclick="appendToDisplay('-')" class="operator"> - </button>
+            <button onclick="appendToDisplay('4')"> 4 </button>
+            <button onclick="appendToDisplay('5')"> 5 </button>
+            <button onclick="appendToDisplay('6')"> 6 </button>
+            <button onclick="appendToDisplay('*')" class="operator"> * </button>
+            <button onclick="appendToDisplay('1')"> 1 </button>
+            <button onclick="appendToDisplay('2')"> 2 </button>
+            <button onclick="appendToDisplay('3')"> 3 </button>
+            <button onclick="appendToDisplay('/')" class="operator"> / </button>
+            <button onclick="appendToDisplay('0')"> 0 </button>
+            <button onclick="appendToDisplay('.')"> . </button>
+            <button onclick="calculateResult()" class="equal"> = </button>
+        </div>
+
+        <!--bagian footer-->
+        <footer class="footer">
+            <p> Created by Oche / Copyright 2025</p>
+        </footer>
+        <div class="footer-line"> </div> <!--menambah garis bagian bawah-->
+        </div>
+        <script src="JS/Script.js"></script>
+</body>
+</html>
